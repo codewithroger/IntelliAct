@@ -1,4 +1,10 @@
 import React from 'react';
+import ProductsSection from './ProductsSection';
+import CoreValuesSection from './CoreValuesSection';
+import AllProductsSection from './AllProductsSection';
+import LogoGrid from './LogoGrid';
+import Navigation from './Navigation';
+import CareersForm from './CareersForm';
 
 const coreSolutions = [
   {
@@ -45,27 +51,7 @@ return (
       <header className="bg-black text-white text-center py-3 text-base font-semibold" role="banner">
         An Automation Startup Company approved by Govt of India & ISO Certified
       </header>
-
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm sticky top-0 z-20" role="navigation" aria-label="Primary Navigation">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="/" aria-label="Orvion IntelliAct Automation Home">
-            <img
-              src="https://img1.wsimg.com/isteam/ip/e5e1f2a6-28cb-4358-bddc-d0b930b52682/Logo%20Final.jpg/:/rs=w:202,h:200,cg:true,m/cr=w:202,h:200/qt=q:95"
-              alt="Orvion IntelliAct Automation Logo"
-              className="h-12 md:h-14"
-            />
-          </a>
-          <ul className="hidden md:flex space-x-8 text-base font-medium text-gray-700">
-            {['Home', 'Products', 'Solutions', 'Careers', 'Company', 'Contact'].map((item) => (
-              <li key={item} className="hover:text-blue-600 cursor-pointer transition-colors duration-200">
-                <a href={`#${item.toLowerCase()}`}>{item}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
-
+        <Navigation/>
       {/* Banner Section */}
       <section
         className="relative w-full h-[600px] bg-cover bg-center"
@@ -122,7 +108,11 @@ return (
           </div>
         </section>
       </main>
-
+        <ProductsSection/>
+        <CoreValuesSection/>
+        <AllProductsSection/>
+        <LogoGrid/>
+    
       {/* Footer */}
       <footer className="bg-gray-100 mt-20 py-8 text-center text-sm text-gray-500" role="contentinfo">
         © 2025 Orvion IntelliAct Automation Pvt. Ltd. All rights reserved.
