@@ -5,7 +5,7 @@ import AllProductsSection from './AllProductsSection';
 import LogoGrid from './LogoGrid';
 import Navigation from './Navigation';
 import CareersForm from './CareersForm';
-
+import { Link } from 'react-router-dom';
 const coreSolutions = [
   {
     title: 'Refinery Automation',
@@ -68,9 +68,11 @@ return (
             <p className="text-lg md:text-xl font-medium italic mb-6">
               Anything and Everything in Automation
             </p>
-            <button className="bg-black text-white px-6 py-3 border border-white hover:bg-white hover:text-black transition font-semibold">
-              Learn More
-            </button>
+          <Link to="/company">
+  <button className="bg-black text-white px-6 py-3 border border-white hover:bg-white hover:text-black transition font-semibold">
+    Learn More
+  </button>
+</Link>
           </div>
         </div>
       </section>
