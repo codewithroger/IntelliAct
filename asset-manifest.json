@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/IntelliAct/static/css/main.859b98f7.css",
-    "main.js": "/IntelliAct/static/js/main.903b43a5.js",
+    "main.js": "/IntelliAct/static/js/main.9a9a6e1c.js",
     "static/js/453.4c463773.chunk.js": "/IntelliAct/static/js/453.4c463773.chunk.js",
     "index.html": "/IntelliAct/index.html",
     "main.859b98f7.css.map": "/IntelliAct/static/css/main.859b98f7.css.map",
-    "main.903b43a5.js.map": "/IntelliAct/static/js/main.903b43a5.js.map",
+    "main.9a9a6e1c.js.map": "/IntelliAct/static/js/main.9a9a6e1c.js.map",
     "453.4c463773.chunk.js.map": "/IntelliAct/static/js/453.4c463773.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.859b98f7.css",
-    "static/js/main.903b43a5.js"
+    "static/js/main.9a9a6e1c.js"
   ]
 }
