@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './Component/HomePage';
 import Navigation from './Component/Navigation';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Products from './Component/Production';
 import CareersForm from './Component/CareersForm';
 import Soluation from "./Component/Soluation";
@@ -11,7 +11,7 @@ import CompanyProfile from './Component/CompanyProfile';
 
 function App() {
   return (
-  <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<Products />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/leadership" element={<LeadershipSection />} />
       </Routes>
-     </BrowserRouter>
+    </HashRouter>
   );
 }
 
