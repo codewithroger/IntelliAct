@@ -1,6 +1,5 @@
 import './App.css';
 import HomePage from './Component/HomePage';
-import Navigation from './Component/Navigation';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Products from './Component/Production';
 import CareersForm from './Component/CareersForm';
